@@ -1,0 +1,6 @@
+python3 -m venv playlist_cleaner-venv
+source playlist_cleaner-venv/Scripts/activate
+python3 -m pip install spotipy --upgrade pip
+export SPOTIPY_CLIENT_ID='42ebfded09144122aa0f0906eb853930'
+export SPOTIPY_CLIENT_SECRET='ef3261454aef4d6c84b9d67543e7a927'
+export SPOTIPY_REDIRECT_URI='http://localhost:3000'
